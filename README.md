@@ -18,11 +18,18 @@ $ make
 ## Usage
 
 ```
-$ ./line-printer FILE
+$ ./line-printer [FILE|-]
 ```
 
 Example:
 
 ```
 $ ./line-printer examplefile.txt
+$ ./line-printer -
+$ echo "Multi\\nLine\\nInput\\n" | ./line-printer -
 ```
+
+## Warning
+
+Make sure your stdin input or FILE's lines *always* ends with newline or
+`line-printer` won't erase the output line.
