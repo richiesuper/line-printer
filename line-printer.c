@@ -75,6 +75,8 @@ main(int argc, char *argv[])
 
 		while (fscanf(fp, "%c", &c) != EOF)
 			process(c, &i);
+
+		fclose(fp);
 	}
 
 	return 0;
