@@ -1,0 +1,9 @@
+This is the file in which sentences will be printed out.
+The sentences will be printed to standard out and then "erased".
+Longer delays between lines can be achieved by adding lone newlines inbetween.
+Example:
+The line after this line will show up more delayed than the previous ones.
+
+
+
+Sorry, I'm late~~
